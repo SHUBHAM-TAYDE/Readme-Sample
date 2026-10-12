@@ -202,7 +202,7 @@ Document every variable the application actually requires. Replace this table wi
 
 - Local development: use an untracked environment file or an approved local secret manager.
 - CI/CD: use protected pipeline credentials or the approved secret-management service.
-- Production: use the organization's approved secret store, such as AWS Secrets Manager.
+- Production: use the organization's approved secret store, such as Secrets Manager, hashicorp vault.
 - Never commit real secrets or copy production credentials into example files.
 - Rotate credentials if they are accidentally exposed.
 
