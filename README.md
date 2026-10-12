@@ -2,8 +2,7 @@
 
 [One or two sentences describing what the project does, who uses it, and the problem it solves.]
 
-\
-
+---
 
 > **Repository:** `[GitHub/GitLab repository URL]`
 > **Owner:** `[Team or responsible engineer]`
@@ -49,9 +48,8 @@
 | Cache / Queue     | [Redis / RabbitMQ / None]                   | [Version]            |
 | Package manager   | [npm / pnpm / Maven / pip / etc.]           | [Version]            |
 | Container runtime | Docker                                      | [Supported version]  |
-| CI/CD             | [Jenkins / GitHub Actions / Other]          | [Workflow reference] |
 | Deployment        | [VM / Docker Compose / Kubernetes / EKS]    | [Environment]        |
-| Infrastructure    | [Terraform / CloudFormation / Manual]       | [Notes]              |
+| Infrastructure    | [ Manual]                                   | [Notes]              |
 | Monitoring        | [Prometheus / Grafana / CloudWatch / Other] | [Notes]              |
 
 Only list components that the project actually uses.
@@ -587,9 +585,9 @@ Add real, reproducible issues encountered by the team. Include diagnostic comman
 
 ### Definition of Done
 
-- [x] Implementation is complete.
-- [x] Relevant tests pass.
-- [x] Documentation and environment examples are updated.
+- [ ] Implementation is complete.
+- [ ] Relevant tests pass.
+- [ ] Documentation and environment examples are updated.
 - [ ] No secrets or unintended generated files are committed.
 - [ ] CI checks pass.
 - [ ] Deployment and recovery requirements are documented.
@@ -630,7 +628,3 @@ This README must be updated when changes affect:
 - Database migrations
 - CI/CD stages or deployment targets
 - Monitoring, security, or rollback procedures
-
-**Last reviewed:** [YYYY-MM-DD]
-**Reviewed by:** [Team / role]
-**Documentation status:** [Complete / Needs updates]
